@@ -1,0 +1,50 @@
+<!-- 
+	Created by: Ethan PP Cutting - 4/04/2023
+	modified last: Ethan PP Cutting - 4/04/2023
+    
+    https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form
+    https://michiganbattleofthebuildings.org/2019-michigan-energy-summit/wallpaper-for-facebook-profile-photo/
+
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="Technology Inquiry Project" />
+        <meta name="keywords" content="HTML, CSS, JavaScript" />
+        <meta name="author" content="Ethan PP Cutting" />
+        <title>Account Login Form</title>
+        <link href= "styles/style.css" rel="stylesheet"/>
+        <script src="scripts/login.js"></script>
+    </head>
+
+    <body>
+      <div id="head"> <p id="heading"> <img class="image" src="images/logo.png"></img>CorpU </p></div> 
+       <div class="formlogin">
+        <form id="loginform" method="post" action="login.php">
+            <div>
+                <h1>Staff Login</h1>
+                <p>
+                    Please login using your username and password<br>
+                    Username is your CorpU email address.
+                </p>
+            </div>
+
+            <div class="Main">
+                <label for="username"><b>Email</b></label><br>
+                <input type="text" placeholder="" id="username" name="username" required>
+                <br>
+                <br>
+                <label for="password"><b>Passsword</b></label><br>
+                <input type="password" placeholder="" id="password" name="password" required>
+                <br>
+				<br>
+				<input type="submit" name="submit" value="Login" id="button" />
+				<input type="reset" name="reset" value="Reset" id="button" />
+                <br>
+				<br>
+			</div>
+        </form>
+        </div>
+</body>
+</html>

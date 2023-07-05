@@ -1,0 +1,71 @@
+<!-- 
+	Created by: Yasumin Toothong (Millie) - 1/05/2023
+	modified last: Ethan PP Cutting - 6/05/2023
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Preference Form</title>
+  <script src="scripts/unitlist.js"></script>
+  <link href= "styles/style.css" rel="stylesheet"/>
+</head>
+
+<header>
+    <img class="headlogo" src="images/logo.png">
+    <h1 id= "title" >CorpU University</h1>
+     <div class="header-container">
+      <nav> 
+      <p class="menu"><a href="index.html"> <strong>Home Page</strong> </a></p>
+      <p class="menu"><a href="benefit.html"><strong> Perks and Benefits</strong> </a> </p>
+      <p class="menu"><a href="contact.html"><strong>Contact Us</strong></a>
+   </nav>
+  </div>
+</header>
+   
+<body id="unit-list-body">
+<form id="unit-list-form">
+<h4 class="text" id="h1-ul">Staff Vacancy: We are hiring teachers to assist in the below department and units.</h4>
+<h6 class="text" id="h2-ul">Department of Information Technology</h6>
+<h6 class="text" id="h3-ul">Unit List - Staff needed</h6>
+<p class="text" id="p-ul"><em>Please select the unit based on your skills.</em></p>
+<table border="1" id="table">
+			 <thead>
+				<tr>
+					<th scope="col">Unit ID</th>
+					<th scope="col">Unit Name</th>
+					<th scope="col">Permanent Staff</th>
+					<th scope="col">Skills</th>
+					<th scope="col">View Details</th>
+				</tr>
+			</thead>
+			<tbody>
+			<tr>
+			<th scope="row">A1234</th>
+			<th scope="row">Creation Web Applications</th>
+			<td>Dr. John Smith</td>
+			<td>HTML, CSS, JavaScript</td>
+			<th scope="row"><input type="button" value="Select" id="cwa" onclick="saveLinkValue('Creation Web Applications')"/></th>
+			</tr>
+			<tr>
+			<th scope="row">B1234</th>
+			<th scope="row">Data Management</th>
+			<td>Dr. Tom Brown</td>
+			<td>SQL</td>
+			<th scope="row"><input type="button" value="Select" id="dm" onclick="saveLinkValue('Data Management')"/></th>
+			</tr>
+			<tr>
+			<th scope="row">C1234</th>
+			<th scope="row">Data Science</th>
+			<td>Dr. Ben Davis</td>
+			<td>Python</td>
+			<th scope="row"><input type="button" value="Select" id="ds"  onclick="saveLinkValue('Data Science')"/></th>
+			</tr>
+			</tbody>
+	</table>
+</form>
+</body>
+<br>
+<br>
+</html>

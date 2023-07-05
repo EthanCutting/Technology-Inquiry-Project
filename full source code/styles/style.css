@@ -1,0 +1,864 @@
+/*
+    Created by: Ethan PP Cutting - 28/04/2023
+	modified last: Ethan PP Cutting - 25/05/2023
+
+*/
+
+/* Nav bar and title styling */
+* {font-family: arial;}
+
+ #title {
+ 	font-family: arial;
+ 	font-size: 55px;
+ 	font-weight: bold;
+    text-align: left;
+ 	color: #faa771;
+ 	display: inline;
+ 	margin-left: -40px;
+ }
+
+ header {
+            background-color: #425a97; 
+            color: #FFFFFF; 
+            position: relative; 
+            padding: 10px;
+        }
+
+.header-container {
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+.headlogo {
+	width: 250px;
+	height: auto;
+	display: inline;
+	vertical-align: middle;
+	margin-top: -2%;
+}
+
+
+nav { /* styling menu bar */
+  	margin-left: 50px;
+  	width: 100%;
+  	margin-top: -2%;
+}
+
+nav a:hover {background-color: #faa771 ; border-color: white; } /* hovering when plcae on meny bar */
+
+nav .menu {display: inline-block; 
+			padding: 0.2em; } /* make the menu bar line up  and leave some space*/
+
+
+nav ul { /* making navigation bar */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+nav a {text-decoration: none; padding:0.6em 1em;  
+	border: 3px solid white; 
+	border-radius: 10px 10px;
+	color: white;
+	background-color: #425a97 ;
+	font-size: 20px;  
+} 
+/* end of styling for Index */
+
+
+
+
+
+
+
+
+
+/* Style for Index page  */
+.text {
+    margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 40px;
+}
+
+
+
+.side 
+{
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+
+#studylife
+{
+    display: inline;
+}
+
+
+.container 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+.main 
+{
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+    font-family: Garamond, serif;
+}
+
+.pagr 
+{
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#login-button-div
+{
+    border-radius: 10px;
+    border: 2px solid  #f1f1f1;
+    padding: 30px;
+    width: 300px;
+    background-color: #f1f1f1;
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 300px;
+    margin-top: 40px;
+    opacity: 0.8;
+}
+
+.nav-links 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#profile-container 
+{
+    position: relative;
+}
+
+#profile-container img 
+{
+    margin-top: 25px;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+    
+.button-login-index
+{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button:hover 
+{
+    background-color: #0069d9;
+}
+
+* 
+{
+    box-sizing: border-box;
+}
+
+
+body 
+{
+    font-family: Arial;
+    margin: 0;
+}
+
+.row 
+{  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side 
+{
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Garamond, serif;
+}
+
+.main 
+{
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+
+#h1 
+{
+    margin-right: 500px;
+    font-size: 54px;
+    font-family: Tahoma, sans-serif;
+}
+
+.footer 
+{
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+#study-life
+{
+    font-size: 20px;
+    font-family: Garamond, serif;
+}
+
+#teching-life
+{
+    font-size: 20px;
+    font-family: Garamond, serif;
+}
+/* end of styling  */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Perks and Benefit Form  (Ethan)  */
+#benefits-body {
+    background-color: #425a97;
+  }
+  
+  #benefits-form {
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 50px auto;
+    width: 40%;
+    padding: 20px;
+    color: #425a97;
+  }
+  
+  #benefits-form h1 {
+    text-align: center;
+    color: #faa771;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .benefits-p {
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  #benefits-side-1 {
+    margin-right: 50px;
+    width: 80%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .collapsible {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    background-color: #dedede;
+    color: #425a97;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .active,
+  .collapsible:hover {
+    background-color: #ddd;
+  }
+  
+  .coll {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #dedede;
+  }
+  
+  .coll ul {
+    padding-left: 20px;
+  }
+  
+  .coll ul li {
+    margin-bottom: 10px;
+  }
+
+/* end of styling  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Login styling by Isaraporn Limratchapong - Magic*/
+        
+* {font-family: arial;}
+
+#login-body {
+     background-color: #425a97 ;
+     color: black;
+        }
+
+h1 {color:#faa771;
+
+}
+
+#heading {
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: inline;
+}
+
+.formlogin {border: 6px inset #dedede;    /*    create border */
+    border-radius: 10px;
+    margin: 16em;
+    padding: 2em;
+    width: 60%;
+    margin-top: -2%;
+    margin-left:20%;
+    }
+
+#button {
+  padding: 12px 24px;
+  background-color: white;
+  font-size: 16px;
+  margin: 15px;
+  border-radius: 4px;  
+}
+
+button:hover
+{
+    opacity: 0.8;
+}
+
+.image {
+    width: 150px;
+    height: auto;
+    display: inline;
+    vertical-align: middle;
+}
+
+#head {
+    margin-left: 32%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+
+input[type=text], input[type=username]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=password], input[type=password]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/* end of styling */
+
+
+
+
+
+
+
+
+
+
+
+/* Unit List styling  */
+
+#unit-list-body 
+{ 
+    background-color: #e7e7e7;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+  
+#unit-list-form 
+{
+    
+    width: 80%;
+    padding: 20px;
+    margin: 0% auto;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+  
+  
+#h1-ul 
+{
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+#h2-ul
+{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    color: #333333;
+
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#h3-ul 
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#h2-ul 
+{
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+}
+  
+#p-ul 
+{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #666666;
+    line-height: 1.5;
+}
+
+table 
+{
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+  
+th 
+{
+    font-weight: bold;
+    text-align: left;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px;
+}
+  
+td 
+{
+    text-align: left;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px;
+}
+  
+tbody tr:nth-child(even) 
+{
+    background-color: #f2f2f2;
+}
+  
+  input[type="button"] {
+    background-color: #db5461;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #fff;
+    color: #db5461;
+    border: 1px solid #db5461;
+  }
+  
+
+/* end of styling  */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Preference Form styling   (Ethan) */
+#preference-form 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0% auto;
+    float: center;
+}
+
+.p-label 
+{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.qualification-checkbox
+{
+    margin: 0% auto;
+    display: inline-block;
+    
+}
+
+#p-h1 
+{
+    margin: auto;
+    float: center;
+}
+
+.f1-p1
+{ 
+    width: 50%;
+    margin: 0% auto;
+    border: 1px solid #ddd;
+    padding: 50px 30px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+.f1-p1-1
+{ 
+    width: 50%;
+    margin: 0% auto;
+    border: 1px solid #ddd;
+    padding: 50px 30px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.label-p1
+{
+    border: 1px solid black;
+    padding: 8px;
+    background-color: rgb(51, 50, 50);
+    color: white;
+}
+
+
+/* end of styling  */
+
+
+
+
+
+
+
+
+
+/*Staff Table Styling - Millie*/
+#stafftable {
+    width: 100%;
+    border: 2px solid #425a97;
+    font: arial, helvetica, sans-serif;
+    text-align: center;
+    max-width: 85%;
+    border-radius: 5px;
+    margin: auto;
+    color: gray;
+    margin-bottom: 5%;
+  }
+  
+  #stafftable th {
+    background-color: #425a97;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+  }  
+
+  #stafftitle {
+    text-align: center;
+    font-size: 3em;
+    color: #425a97;
+  }
+
+  #staffdesc {
+    text-align: center;
+    font-style: italic;
+    color: #425a97;
+  }
+  
+  #my-dropdown {
+    background-color: #425a97;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #my-dropdown option {
+    background-color: #dedede;
+    color: #333;
+  }
+  
+  #my-dropdown option:nth-child(1),
+  #my-dropdown option:nth-child(2),
+  #my-dropdown option:nth-child(3),
+  #my-dropdown option:nth-child(4) {
+    background-color: #faa771;
+    color: #fff;
+  }
+  
+button.delete {
+    background-color: red;
+    color: white;
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+button.delete:hover {
+    background-color: #fff;
+    color: #db5461;
+    border-color: #db5461;
+  }
+  
+#staffborder {
+    border: 6px inset #dedede;
+    border-radius: 10px;
+    margin: auto;
+    padding: 2em;
+    width: 80%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    background-color: white;
+  }
+  
+  /*End of Styling*/
+
+
+
+
+
+/*Error Millie Magic Alene*/
+
+.errormsg {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+/* Contact Form */
+body 
+{
+    
+    background-color: #e7e7e7;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+
+#contact-form 
+{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 50px auto;
+    padding: 50px;
+    width: 35%;
+}
+  
+#contact-form h1 
+{
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+  
+#contact-form h2 
+{
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #666;
+}
+  
+#contact-form iframe 
+{
+    border: 0;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+}
+  
+#contact-form div 
+{
+    margin: 30px 0;
+}
+  
+#contact-form p 
+{
+    font-size: 18px;
+    color: #444;
+    line-height: 1.5;
+}
+  
+#contact-form a 
+{
+    color: #db5461;
+    text-decoration: none;
+}
+  
+#contact-form a:hover 
+{
+    text-decoration: underline;
+}
+/* end of styling  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media */
+@media screen and (max-width: 768px) 
+{
+    img 
+    {
+      max-width: 80%;
+    }
+  }
+  
+  
+@media screen and (min-width: 24in) 
+{
+    .image2 
+    {
+      width: 100%;   
+    }
+  }
+

@@ -1,0 +1,95 @@
+<!-- 
+	Created by: Millie - 29/04/2023
+	modified last: Ethan PP Cutting - 6/05/2023
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>CorpU's Perks and Benefits</title>
+  <link href="styles/style.css" rel="stylesheet" />
+  <script>
+    function initializeCollapsible() 
+    {
+      var coll = document.getElementsByClassName("collapsible");
+
+      for (var i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() 
+        {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (window.getComputedStyle(content).display === "none") 
+          {
+            content.style.display = "block";
+          } else {
+            content.style.display = "none";
+          }
+        });
+      }
+    }
+
+    window.onload = function() {
+      initializeCollapsible();
+      // Hide the benefits initially
+      var benefitsContent = document.getElementById("benefits-side-2");
+      benefitsContent.style.display = "none";
+    };
+  </script>
+</head>
+
+<header>
+        <img class="headlogo" src="images/logo.png">
+        <h1 id= "title" >CorpU University</h1>
+         <div class="header-container">
+          <nav> 
+          <p class="menu"><a href="index.html"> <strong>Home Page</strong> </a></p>
+          <p class="menu"><a href="benefit.html"><strong> Perks and Benefits</strong> </a> </p>
+          <p class="menu"><a href="contact.html"><strong>Contact Us</strong></a>
+       </nav>
+      </div>
+</header>
+    
+<body>
+<div>
+  <form id="benefits-form">
+    <h1>Perks and Benefits of Working at CorpU</h1>
+	
+	<img src="images/benefit.jpeg" alt="benefitimage" style="height:500px" style="width:300px" class="image2" >	
+	
+	<br>
+	
+    <button type="button" class="collapsible">Perks and Benefits of Working at CorpU</button>
+    <div class="coll">
+      <br>
+            <ul>
+				<strong>Collaboration</strong>
+				<br>
+				<li>A positive and inclusive workplace culture that encourages collaboration and innovation</li>
+				<li>Regular social events and team-building activities to foster a sense of community and connection</li>
+				<br>
+				<strong>Support</strong>
+				<br>
+				<li>Access to cutting-edge technology and resources to support teaching and research</li>
+				<li>Opportunities for professional development and career growth through ongoing training and mentoring</li>
+				<li>Flexibility in work arrangements to accommodate different lifestyles</li>			
+				<li>A range of health and wellness programs, including gym memberships, mental health support, 
+          and wellness resources</li>				
+				<br>
+				<strong>Rewards</strong>
+				<br>
+				<li>Competitive salaries and benefits packages that recognize the value of our staff</li>
+                <li>Employee recognition and reward programs for outstanding performance and achievements</li>
+          </ul>
+    </div>
+	</br>
+	</br>
+    <p class="benefits-p">Join us at CorpU and discover all the benefits of being part of a dynamic 
+      and innovative academic community!</p>
+  </form>
+</div>
+
+
+
+
+</body>
+</html>

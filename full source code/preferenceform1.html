@@ -1,0 +1,149 @@
+<!-- 
+	Created by: Alena - 1/05/2023
+	modified last: Ethan PP Cutting - 3/05/2023
+	Supported by Anu for First and Last name codes
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="description" content="Technology Inquiry Project" />
+<meta name="keywords" content="HTML, CSS, JS" />
+<meta name="author" content="Team" />
+<title>Class time page</title>
+<link href= "styles/style.css" rel="stylesheet"/>
+</head>
+
+<body class="p-body">
+
+	<header>
+		<img class="headlogo" src="images/logo.png">
+		<h1 id= "title" >CorpU University</h1>
+		 <div class="header-container">
+		  <nav> 
+		  <p class="menu"><a href="index.html"> <strong>Home Page</strong> </a></p>
+		  <p class="menu"><a href="benefit.html"><strong> Perks and Benefits</strong> </a> </p>
+		  <p class="menu"><a href="contact.html"><strong>Contact Us</strong></a>
+	   </nav>
+	  </div>
+	</header>
+   
+<form id="form" method="post" action="insert.php">
+
+<br />
+
+<fieldset class="f1-p1">
+
+	<legend class="label-p1"  ><strong>General Information</strong></legend>
+	
+		<p>
+		
+		<label  for="firstname">First Name:</label> 
+		<input type="text" name="firstname" id="firstname" maxlength="20"  
+				pattern="^[a-zA-Z]+$" required="required"
+				/>
+							
+
+		<label for="lastname">Last Name:</label>
+		<input type="text" name="lastname" id="lastname" maxlength="20"
+				pattern="^[a-zA-Z]+$" required="required"
+				/>
+		</p>
+		
+		<p>
+		
+		<label for="mobilenumber">Mobile Number:</label>
+		<input type="text" name="mobilenumber" id="mobilenumber"
+				pattern="\d{8,12}" required="required"
+				/>
+		
+		</p>
+
+		<p>
+		
+		<label for="idnumber">ID Number:</label>
+		<input type="text" name="idnumber" id="idnumber"
+				pattern="\d{9}" required="required"
+				/>
+		</p>	
+
+</fieldset>
+
+<br />
+
+<fieldset class="f1-p1">
+
+	<legend class="label-p1" ><strong>Unit Information</strong></legend>
+	
+	<p>
+	
+	<label><input type="checkbox" name="unit_id" class="chkbox"
+	value="A1234" checked="checked" 
+	required="required"/>
+	A1234: Creating Web Applications
+	</label>
+	
+	</p>
+	
+	<p><strong>Unit Overview:</strong> This unit introduces the creation of websites from both the client and server side.
+				At the end of the course, students will be able to develop their own website using programming languages
+				such as HTML, CSS and JavaScript.</p>
+	
+	<p><strong>Casual Staff role:</strong> The role of a casual staff is to assist with classes, labs and workshops where needed.</p>
+	
+	
+	<p><strong>Salary range:</strong> 70K-80K</p>
+	
+</fieldset>
+
+<br />
+
+<fieldset class="f1-p1-1">	
+
+	<legend class="label-p1" ><strong>Teaching Period</strong></legend>
+	
+	<p>Please select the schedule according to your availability</p>
+
+	<p>
+	
+	<label><input type="checkbox" name="schedule[]" class="chkbox"
+	value="M:9-11AM" checked="checked"/>
+	Monday: 9:00AM-11:00AM
+	</label>
+	
+	</p>
+	
+	<p>
+	
+	<label><input type="checkbox" name="schedule[]" class="chkbox"
+	value="W:2-4PM"  />
+	Wednesday: 14:00PM-16:00PM
+	</label>
+	
+	</p>
+	<div>
+		<button type="submit"   class="button-p1">Submit</button>
+		<button type="reset"   class="button-p1">Reset Form</button>
+	</div>
+
+	
+</fieldset>
+
+
+</br>
+
+</form>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
